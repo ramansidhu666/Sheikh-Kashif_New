@@ -100,7 +100,7 @@ namespace Property
 
                 mail.Attachments.Add(new Attachment(filePath));
             mail.From = new MailAddress(FromEmailID);
-            mail.Subject = "Suchi Gupta";
+            mail.Subject = "Pankaj Butan";
             string body = "";
             body = "<p>Thanks for contacting us.</p>";
             mail.Body = body;

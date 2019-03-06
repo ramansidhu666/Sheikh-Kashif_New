@@ -235,11 +235,11 @@ D:\ParamSites\MuhammadArshad\Property\bin\Cls_Property.pdb
 D:\ParamSites\MuhammadArshad\Property\obj\Debug\Property.csprojResolveAssemblyReference.cache
 D:\ParamSites\MuhammadArshad\Property\obj\Debug\Property.dll
 D:\ParamSites\MuhammadArshad\Property\obj\Debug\Property.pdb
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\bin\Property.dll.config
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\bin\Property.dll
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\bin\Property.pdb
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\bin\Cls_Property.dll
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\bin\Cls_Property.pdb
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\obj\Debug\Property.csprojResolveAssemblyReference.cache
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\obj\Debug\Property.dll
-C:\Sites\Paramsites\Kashif & Ehtesham\Property\obj\Debug\Property.pdb
+C:\Sites\Paramsites\Pankaj Butan\Property\bin\Property.dll.config
+C:\Sites\Paramsites\Pankaj Butan\Property\bin\Property.dll
+C:\Sites\Paramsites\Pankaj Butan\Property\bin\Property.pdb
+C:\Sites\Paramsites\Pankaj Butan\Property\bin\Cls_Property.dll
+C:\Sites\Paramsites\Pankaj Butan\Property\bin\Cls_Property.pdb
+C:\Sites\Paramsites\Pankaj Butan\Property\obj\Debug\Property.csprojResolveAssemblyReference.cache
+C:\Sites\Paramsites\Pankaj Butan\Property\obj\Debug\Property.dll
+C:\Sites\Paramsites\Pankaj Butan\Property\obj\Debug\Property.pdb

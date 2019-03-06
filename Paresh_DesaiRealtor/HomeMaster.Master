@@ -55,7 +55,7 @@
 
         #Homebanner {
             float: left;
-            margin-bottom: 0px;
+            margin-bottom: 24px;
             width: 100%;
         }
 
@@ -95,15 +95,15 @@
                       <div class="col-md-6 col-sm-6">
  <div class="header_socio_top">
      <ul>
-                       <li><a href="https://www.facebook.com/Hotline-Properties-1967890406847975" target="_blank">
+                       <li><a href="#" target="_blank">
                             <i class="fa fa-facebook-square" aria-hidden="true"></i> </a></li>
-                          <li><a href="https://twitter.com/Hotlineproperty" target="_blank">
+                          <li><a href="#" target="_blank">
                             <i class="fa fa-twitter-square" aria-hidden="true"></i> </a></li>
-                          <li><a href="https://www.instagram.com/hotlineproperties.ca/" target="_blank">
+                          <li><a href="#" target="_blank">
                             <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                   <li><a href="https://plus.google.com/107820767900736113879" target="_blank">
+                   <li><a href="#" target="_blank">
                             <i class="fa fa-google-plus-square" aria-hidden="true"></i> </a></li>
-                   <li><a href="https://www.youtube.com/channel/UC49iGYTr5HcTNGLe01K52dw" target="_blank">
+                   <li><a href="#" target="_blank">
                            <i class="fa fa-youtube-square" aria-hidden="true"></i> </a></li>
          </ul>
                     </div>
@@ -129,35 +129,34 @@
                 <div class="header_detail">
                     <h2>
                         <asp:Label ID="lblBrkrOneName" CssClass="gjfdhg" runat="server"></asp:Label></h2>
-                    <p>Sales Representatives</p>
-                   <h5> <a href="tel:647-859-7222">647-859-7222</a></h5>
+                    <p>Sales Representative</p>
+                  
                 </div>
                  
             </div>
             <div class="col-md-3 col-sm-3">
-                 <div class="header_logo">
-                     <img src="images/properties_logo.png" alt="" title="" />
-                </div>
-                  
-            </div>
+         </div>
             <div class="col-md-5 col-sm-5">
                 <div class="header_detail1">
-                    <h2>Ehtesham Chaudhry</h2>
-                    <p>Sales Representatives</p>
-                      <h5>
-                        <a href="tel:416-454-5352">416-454-5352</a></h5>
+                    <div class="header_detail_call">
+                   <i class="fa fa-mobile ftr_hdng3"></i>
+				    <span><a href="tel:416-890-9887">416-890-9887</a></span> 
+                </div>
+                   <div class="header_detail_right">
+                  <i class="fa fa-envelope ftr_hdng2"></i>
+				    <a href="mailto:pankajbutan@gmail.com"><asp:Label ID="lblemailid" runat="server"></asp:Label></a>
+                </div>   
                 </div>
                <div class="header_socio2">
-                       <li><a href="https://www.facebook.com/Hotline-Properties-1967890406847975" target="_blank">
+                       <li><a href="#" target="_blank">
                             <i class="fa fa-facebook-square" aria-hidden="true"></i> </a></li>
-                          <li><a href="https://twitter.com/Hotlineproperty" target="_blank">
+                          <li><a href="#" target="_blank">
                             <i class="fa fa-twitter-square" aria-hidden="true"></i> </a></li>
-                          <li><a href="https://www.instagram.com/hotlineproperties.ca/" target="_blank">
+                          <li><a href="#" target="_blank">
                             <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                   <li><a href="https://plus.google.com/107820767900736113879" target="_blank">
+                   <li><a href="#" target="_blank">
                             <i class="fa fa-google-plus-square" aria-hidden="true"></i> </a></li>
-                   <li><a href="https://www.youtube.com/channel/UC49iGYTr5HcTNGLe01K52dw" target="_blank">
-                           <i class="fa fa-youtube-square" aria-hidden="true"></i> </a></li>
+                   
                     </div>
             </div>
         </div>
@@ -177,7 +176,7 @@
         </div>
     </div>
        <div id="Homebanner" runat="server">
-           <div class="">
+           <div class="container">
                 <div class="banner_section">
                         <div class="slider-wrapper theme-default">
                             <div id="slider" class="nivoSlider">
@@ -200,13 +199,41 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
+           <div class="hme_wrth_sect">
+            <div class="container">
+                <div class="home_wrth_bg">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="buyer_cntnt">
+                        <div class="buyer_gradient">
+                            <div class="buyer_text">
+                                <h2>Sellers</h2>
+                                <p>List your House  for Only <u>$999</u>*  !!!</p>
+                            </div>
+                            <div class="buyer_text">
+                                <h2>Buyer</h2>
+                                <p>Buy with me & Get Up To <u>1%</u> Cash Back !!!</p>
+                            </div>
+                            <div class="buyer_text">
+                                <h2 style="text-transform:capitalize;">High Referral Bonus</h2>
+                                
+                            </div>
+                        </div>
+                        <span>* does not include co-operating brokerage commision</span>
+                    </div>
+                </div>
+              <div class="col-md-1"></div>
+            </div>
+                </div>
+        </div>
        
           <div class="latst_srch_bg">
             <div class="container">
                 <div class="row frnt_line_cls">
                     <div class="col-md-12 col-sm-12">
                         <div class="ltst_srch_sct">
-                            <h2>Search your Properties</h2>
+                            <h2>Start your own search</h2>
                             <div class="input_srch_new">
                                 <div class="In_bg_new">
                                   <uc:SearchBar runat="server" ID="SearchBar" />
@@ -219,17 +246,7 @@
             </div>
         </div>
 
-             <div class="top_middle_bg">
-            <div class="container">
-                <div class="col-md-12 col-sm-12">
-                    <div class="top_middle_content">
-                       <%-- <h2>Meet the Team</h2>--%>
-                         <img src="images/about_logo.png" alt="" title="" />
-                        <p>We believe every client has the right to be treated fairly, honestly and with integrity. Our aim is to educate and prepare our clients to ensure that they are always in a position to make informed decisions.Every engagement is an opportunity to create a lasting impression and a forever client.Earning trust is paramount. Our goal as a team is to provide both a superior customer experience and tremendous value for our customers.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+           
 
              <div class="main_sct_bg">
         <div class="container">
@@ -246,7 +263,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="box_sct_bg">
-                    <a href="preconst.aspx">
+                    <a href="featured_properties.aspx">
                         <div class="box_shadow">
                             <img src="images/commercial.png" alt="" title="" />
                         </div>
@@ -274,118 +291,8 @@
     
 
            
-        <%-- <div class="hme_wrth_sect">
-            <div class="container">
-                <div class="home_wrth_bg">
-                    <h2>WHAT’S YOUR HOME REALLY WORTH?</h2>
-                    <span>Type your address below to find out how much your property is worth</span>
-                    <div class="row frnt_line_cls">
-                        <div class="header-addre-form">
-                            <input type="text" id="search" class="MainContentSearchBar" runat="server" placeholder="Type your address and submit" />
-                            <asp:Button ID="addre_submit" runat="server" OnClick="addre_submit_Click" Text="Submit" CssClass="green-btn large" />
-                        </div>
-                    </div>
-                    <div>
-                    </div>
-
-                </div>
-              
-            </div>
-        </div>--%>
-       
-
-
-        <div class="main_sct_bg">
-            <div class="container">
-
-                <div class="box_sction">
-                    <div class="circle_heading">
-                        <h2>Start your Home Search</h2>
-                    </div>
-                    <div class="row frnt_line_cls">
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=toronto%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_1.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=mississauga%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_2.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=north%20york%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_3.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=richmond%20hill%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_4.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row frnt_line_cls">
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=brampton%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_5.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=oakville%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_6.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=milton%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_7.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3">
-                            <div class="box_sct_bg">
-                                <a href="/Search.aspx?Municipality=cambridge%20&PropertyType=Residential">
-                                    <div class="box_shadow">
-                                        <img src="images/circle_8.png" alt="" title="" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-      
-   <div class="latst_srch_bg">
+         
+   <div class="latst_srch_bg pre_none">
             <div class="container">
                <div class="main_sction">
                     <div class="">
@@ -436,41 +343,36 @@
 
     <div class="fuuter_bg" id="one-footer">
         <div class="container">
-           <div class="col-md-4 col-sm-4">
+          <div class="col-md-5 col-sm-5">
+                 <div class="fuuter_name">
+                        <h5>Pankaj Butan  <span>B.Engg, MBA</span></h5>
+                     <p>Sales Representative</p>
+                    </div>
+               <div class="header_detail_call2">
+                   <i class="fa fa-mobile ftr_hdng3"></i>
+				    <span><a href="tel:416-890-9887">416-890-9887</a></span> 
+                </div>
+                   <div class="header_detail_right2">
+                  <i class="fa fa-envelope ftr_hdng2"></i>
+				    <a href="mailto:pankajbutan@gmail.com"><asp:Label ID="lblemail" runat="server"></asp:Label></a>
+                </div>
+                  
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="fuuter_name2">
+                        <h5>Office Address</h5>
+                    </div>
+                <div class="fuuter_map">
+                 <h5><a href="https://goo.gl/maps/QiMuAeANJco" target="_blank" style="margin:0px;"><span>680 Rexdale Blvd,suite 202,<br />Toronto, ON M9W 0B5</span></a></h5>
+                    <h5>Office: <a href="tel:416-741-4443"><span>416.741.4443</span></a></h5>
+                  <h5>Fax: <a href="fax:416.679.0443"><span>416.679.0443</span></a></h5>
+                </div>
+            </div>
+             <div class="col-md-4 col-sm-4">
               <figure class="logo">
                     <uc:Logo ID="logo" runat="server" />
                    
                 </figure>
-            </div>
-			
-			<div class="col-md-4 col-sm-4">
-                 <div class="fuuter_name">
-                        <h5>Follow Us</h5>
-                    </div>
-                   <ul class="scoico_icns_frnt">
-                        <li><a href="https://www.facebook.com/Hotline-Properties-1967890406847975" target="_blank">
-                            <img alt="" src="images/fb_icn_new.png" /></a></li>
-                        <li><a href="https://plus.google.com/107820767900736113879" target="_blank">
-                            <img alt="" src="images/twiter_icn_new.png" /></a></li>
-                    <li><a href="https://twitter.com/Hotlineproperty" target="_blank">
-                            <img alt="" src="images/insta_new_icn.png" /></a></li>
-                        <li><a href="https://www.instagram.com/hotlineproperties.ca/" target="_blank">
-                            <img alt="" src="images/insta_icon.png" /></a></li>
-                       <li><a href="#">
-                            <img alt="" src="images/linkedin_icon.png" /></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC49iGYTr5HcTNGLe01K52dw" target="_blank">
-                            <img alt="" src="images/youtube_icon.png" /></a></li>
-                    </ul>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="fuuter_name">
-                        <h5>Contact Info</h5>
-                    </div>
-                <div class="fuuter_map">
-                 <h5>E-Mail: <a href="mailto:hotlineproperties@gmail.com"><span>hotlineproperties@gmail.com</span></a></h5>
-                    <h5>Call Kashif: <a href="tel:647-859-7222"><span>647-859-7222</span></a></h5>
-                  <h5>Call Ehtesham: <a href="tel:416-454-5352"><span>416-454-5352</span></a></h5>
-                </div>
             </div>
             <div class="col-md-12 col-sm-12">
                 <div class="Design_and_developed">
@@ -486,11 +388,11 @@
                 <div class="futer_mail_bg">
                     <div class="futer_mail">
                        <ul>
-                           <li><a href="mailto:hotlineproperties@gmail.com">
+                           <li><a href="mailto:pankajbutan@gmail.com">
                                 <img alt="" src="images/mail_icnnn.png" /></a></li>
-                          <li><a href="tel:647-859-7222">
-                                <img alt="" src="images/mbl_icnnn.png" /></a></li>
-                            <li><a href="tel:416-454-5352">
+                          <li><a href="sms:416-890-9887">
+                                <img alt="" src="images/sms.png" /></a></li>
+                            <li><a href="tel:416-890-9887">
                                 <img alt="" src="images/mbl_icnnn.png" /></a></li>
                         </ul>
                     </div>

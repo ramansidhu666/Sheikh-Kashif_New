@@ -203,19 +203,19 @@
     .beds-module.small-module {
         float: left;
            margin: 0 4px!important;
-        width: 47%!important
+        width: 95%!important
     }
     .baths-module.small-module {
         clear: both;
         float: left;
            margin: 0 4px!important;
-        width: 47%!important
+        width: 46%!important
     }
     .floors-module.small-module,
     .garages-module.small-module {
         float: left;
         margin: 0 4px!important;
-        width: 47%!important
+        width: 46%!important
     }
     .dt-sc-tabs-container {
         clear: both;

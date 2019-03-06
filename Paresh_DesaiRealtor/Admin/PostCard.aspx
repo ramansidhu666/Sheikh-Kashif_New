@@ -1045,10 +1045,10 @@ function PostCard_Data() {
                             <div style="float: left; width: 60%; text-align: center; margin: 8px 0;">
                                 <div style="float: left; width: 100%; text-align: center;">
                                     <img src="/PostCardImages/client_img.jpg" alt="" title="" style="width: 120px; height: 120px; border-radius: 66px; border: 2px solid white; margin: 3px 0;" />
-                                    <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Kashif & Ehtesham</h2>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-859-7222, 416-454-5352</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: hotlineproperties@gmail.com</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.hotlineproperties.ca</p>
+                                    <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Pankaj Butan</h2>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 416-890-9887, 416-890-9887</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: pankajbutan@gmail.com</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.propertylistings4u.com</p>
                                         <div style="float: left; width: 97%; background-color: #101010; padding: 8px; margin: 6px 0;">
                                 </div>
                                      </div>
@@ -1092,10 +1092,10 @@ function PostCard_Data() {
                                 </div>
                                 <div style="float: left; width: 65%;">
                                     <div style="float: left; background-color: #e8eaec; border-radius: 12px; padding: 6px;">
-                                        <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Kashif & Ehtesham</h2>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-859-7222, 416-454-5352</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: hotlineproperties@gmail.com</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.hotlineproperties.ca</p>
+                                        <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Pankaj Butan</h2>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 416-890-9887, 416-890-9887</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: pankajbutan@gmail.com</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.propertylistings4u.com</p>
                                         <div style="float: left; width: 97%; background-color: #101010; padding: 8px; margin: 6px 0;">
                                             <img src="/PostCardImages/feature_futer_logo.png" alt="" title="">
                                         </div>
@@ -1149,8 +1149,8 @@ function PostCard_Data() {
                             </div>
                             <div style="float: left; width: 100%; margin: 8px 0; text-align: center; background-color: #101010; padding: 12px 0;">
                                 <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">
-Kashif & Ehtesham</h2>
-                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">Homelife / Miracle Realty Ltd,. Brokerage</p>
+Pankaj Butan</h2>
+                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">HomeLife Woodbine Realty Inc., Brokerage</p>
                             </div>
                         </div>
                     </div>
@@ -1192,10 +1192,10 @@ Kashif & Ehtesham</h2>
                                     </div>
                                     <div style="float: left; width: 65%;">
                                         <div style="float: left; background-color: #e8eaec; border-radius: 12px; padding: 6px;">
-                                            <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Kashif & Ehtesham</h2>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-859-7222, 416-454-5352</p>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: hotlineproperties@gmail.com</p>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.hotlineproperties.ca</p>
+                                            <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Pankaj Butan</h2>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 416-890-9887, 416-890-9887</p>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: pankajbutan@gmail.com</p>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.propertylistings4u.com</p>
                                             <div style="float: left; width: 97%; background-color: #101010; padding: 8px; margin: 6px 0;">
                                                 <img src="/PostCardImages/feature_futer_logo.png" alt="" title="">
                                             </div>
@@ -1251,8 +1251,8 @@ Kashif & Ehtesham</h2>
 
 
                             <div style="float: left; width: 100%; margin: 8px 0; text-align: center; background-color: #101010; padding: 12px 0;">
-                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Kashif & Ehtesham</h2>
-                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">Homelife / Miracle Realty Ltd,. Brokerage</p>
+                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Pankaj Butan</h2>
+                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">HomeLife Woodbine Realty Inc., Brokerage</p>
                             </div>
                         </div>
                     </div>
@@ -1283,10 +1283,10 @@ Kashif & Ehtesham</h2>
                                 </div>
                                 <div style="float: left; width: 65%;">
                                     <div style="float: left; background-color: #e8eaec; border-radius: 12px; padding: 6px;">
-                                        <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Kashif & Ehtesham</h2>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-859-7222, 416-454-5352</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: hotlineproperties@gmail.com</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.hotlineproperties.ca</p>
+                                        <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Pankaj Butan</h2>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 416-890-9887, 416-890-9887</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: pankajbutan@gmail.com</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.propertylistings4u.com</p>
                                         <div style="float: left; width: 97%; background-color: #101010; padding: 8px; margin: 6px 0;">
                                             <img src="/PostCardImages/feature_futer_logo.png" alt="" title="">
                                         </div>
@@ -1346,8 +1346,8 @@ Kashif & Ehtesham</h2>
 
                             <div style="float: left; width: 100%; margin: 8px 0; text-align: center; background-color: #101010; padding: 12px 0;">
                                 <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">
-Kashif & Ehtesham </h2>
-                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">Homelife / Miracle Realty Ltd,. Brokerage</p>
+Pankaj Butan </h2>
+                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">HomeLife Woodbine Realty Inc., Brokerage</p>
                             </div>
                         </div>
                     </div>

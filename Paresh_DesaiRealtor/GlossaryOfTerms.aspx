@@ -47,7 +47,7 @@
                 Broker:</h2>
             <p>
                 A person licensed by the provincial or territorial government to trade in real estate.
-                Real estate Brokers may form companies or offices which appoint Sales Representativess
+                Real estate Brokers may form companies or offices which appoint Sales Representatives
                 to provide services to the seller or buyer, or they may provide the same services
                 themselves. In parts of Canada, Brokers are referred to as agents.</p>
             <h2>

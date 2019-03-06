@@ -101,29 +101,36 @@
     <div class="dt-sc-tabs-container" style="width: 100%;">
 
         <div id="divresidential" style="display: block;" class="dt-sc-tabs-frame-content">
-            <div class="property-type-module medium-module">
+          <div class="col-md-10">
+              <div class="srch_br_right" style="border:none;">
+              <div class="row">
+                  <div class="col-md-4"><div class="beds-module small-module new_black_drop">
+                <label>Search by</label>
+                <asp:DropDownList ID="ddlPropType" runat="server">
+                    <asp:ListItem Value="0" Selected="True">Search by</asp:ListItem>
+                    <asp:ListItem Value="Residential">Residential</asp:ListItem>
+                    <asp:ListItem Value="Commercial">Commercial</asp:ListItem>
+                    <asp:ListItem Value="Condo">Condo</asp:ListItem>
+       </asp:DropDownList>
+                      
+            </div></div>
+                  <div class="col-md-8">
+                      <div class="property-type-module medium-module">
                 <label>Search by City, MLS ID or Postal Code</label>
                 <asp:TextBox CssClass="MainContentSearchBar" ID="txtSearch" runat="server" AutoComplete="off"></asp:TextBox>
-                <ajaxToolkit:AutoCompleteExtender ID="AutoCompleteExtender1" CompletionSetCount="10"
+                <ajaxToolkit:AutoCompleteExtender ID="AutoCompleteExtender4" CompletionSetCount="10"
                     TargetControlID="txtSearch" UseContextKey="True" CompletionInterval="0" ServiceMethod="GetAutoCompleteData"
                     CompletionListCssClass="AutoExtender" CompletionListItemCssClass="AutoExtenderList"
                     CompletionListHighlightedItemCssClass="AutoExtenderHighlight" MinimumPrefixLength="2"
                     Enabled="True" runat="server">
                 </ajaxToolkit:AutoCompleteExtender>
             </div>
-            <div class="beds-module small-module">
-                <label>Property Type</label>
-                <asp:DropDownList ID="ddlPropType" runat="server">
-                    <asp:ListItem Value="0" Selected="True">Any</asp:ListItem>
-                    <asp:ListItem Value="Residential">Residential</asp:ListItem>
-                    <asp:ListItem Value="Commercial">Commercial</asp:ListItem>
-                    <asp:ListItem Value="Condo">Condo</asp:ListItem>
-
-
-                </asp:DropDownList>
-            </div>
-
-            <div class="beds-module small-module">
+                  </div>
+              </div>
+          </div>
+              <div class="srch_br_right">
+              <div class="row">
+                  <div class="col-md-2"><div class="beds-module small-module">
                 <label>Type of Home</label>
                 <asp:DropDownList ID="ddlPropertyType" runat="server">
                     <asp:ListItem Value="0">Any</asp:ListItem>
@@ -175,8 +182,8 @@
                     <asp:ListItem Value="Lower Level">Lower Level</asp:ListItem>
                     <asp:ListItem Value="Upper Level">Upper Level</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="baths-module small-module">
+            </div></div>
+                  <div class="col-md-2"> <div class="baths-module small-module">
                 <label>Beds</label>
                 <asp:DropDownList ID="ddlBeds" runat="server">
                     <asp:ListItem Value="0" Selected="True">Any</asp:ListItem>
@@ -191,8 +198,8 @@
                     <asp:ListItem Value="9">9+</asp:ListItem>
                     <asp:ListItem Value="10">10+</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="floors-module small-module">
+            </div></div>
+                  <div class="col-md-2"><div class="floors-module small-module">
                 <label>Baths</label>
                 <asp:DropDownList ID="ddlBaths" runat="server">
                     <asp:ListItem Value="0" Selected="True">Any</asp:ListItem>
@@ -207,9 +214,9 @@
                     <asp:ListItem Value="9">9+</asp:ListItem>
                     <asp:ListItem Value="10">10+</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="garages-module small-module">
-                <label>Min Price</label>
+            </div></div>
+                  <div class="col-md-2"><div class="garages-module small-module">
+                <label>Price From</label>
                 <asp:DropDownList ID="ddlMinPrice" runat="server">
                     <asp:ListItem Value="">Min Price</asp:ListItem>
                     <asp:ListItem Value="100000">$100,000</asp:ListItem>
@@ -276,9 +283,10 @@
                     <asp:ListItem Value="4500000">$4,500,000</asp:ListItem>
                     <asp:ListItem Value="5000000">$5,000,000</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="garages-module small-module">
-                <label>Max Price</label>
+            </div></div>
+                  <div class="col-md-2">
+                      <div class="garages-module small-module">
+                <label>Price To</label>
                 <asp:DropDownList ID="ddlMaxPrice" runat="server">
                     <asp:ListItem Value="0">Max Price</asp:ListItem>
                     <asp:ListItem Value="100000">$100,000</asp:ListItem>
@@ -346,19 +354,33 @@
                     <asp:ListItem Value="5000000">$5,000,000</asp:ListItem>
                 </asp:DropDownList>
             </div>
-            <div class="garages-module small-module">
-                <label>Status</label>
+                  </div>
+                  <div class="col-md-2">
+                      <div class="beds-module small-module">
+                <label>Buy / Rent</label>
                 <asp:DropDownList ID="ddlType" runat="server">
                 </asp:DropDownList>
             </div>
-            <div class="garages-module small-module">
+                  </div>
+              </div>
+          </div>
+              </div>
+            <div class="col-md-2">
+                 <div class="garages-module small-module">
                 <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click" class="searchButton tab_srch_btttn" />
             </div>
+            </div>
+             
             <asp:CompareValidator runat="server" ID="cmpNumberss" CssClass="clsCompare" ControlToValidate="ddlMaxPrice"
                 ControlToCompare="ddlMinPrice" Display="Dynamic" Operator="GreaterThan" Type="Integer" ErrorMessage="Price greater than minimum price  " />
         </div>
         <div id="divcommercial" style="display: none;" class="dt-sc-tabs-frame-content">
-            <div class="property-type-module medium-module">
+              <div class="col-md-10">
+              <div class="srch_br_right">
+              <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8">
+                    <div class="property-type-module medium-module">
                 <label>Type any City, MLSID or PostalCode</label>
                 <asp:TextBox CssClass="MainContentSearchBar" ID="txtCommSearch" runat="server" AutoComplete="off"></asp:TextBox>
                 <ajaxToolkit:AutoCompleteExtender ID="AutoCompleteExtender2" CompletionSetCount="10"
@@ -368,13 +390,39 @@
                     Enabled="True" runat="server">
                 </ajaxToolkit:AutoCompleteExtender>
             </div>
-            <div class="beds-module small-module">
+                  </div>
+              </div>
+          </div>
+              <div class="srch_br_right">
+              <div class="row">
+                  <div class="col-md-2">
+                      <div class="beds-module small-module">
                 <label>
                     Type of Property</label>
                 <asp:DropDownList ID="ddlCommHome" runat="server">
                 </asp:DropDownList>
-            </div>
-            <div class="baths-module small-module">
+            </div></div>
+                  <div class="col-md-2"> 
+                      <%--<div class="baths-module small-module">
+                <label>Beds</label>
+                <asp:DropDownList ID="DropDownList5" runat="server">
+                    <asp:ListItem Value="0" Selected="True">Any</asp:ListItem>
+                    <asp:ListItem Value="1">1+</asp:ListItem>
+                    <asp:ListItem Value="2">2+</asp:ListItem>
+                    <asp:ListItem Value="3">3+</asp:ListItem>
+                    <asp:ListItem Value="4">4+</asp:ListItem>
+                    <asp:ListItem Value="5">5+</asp:ListItem>
+                    <asp:ListItem Value="6">6+</asp:ListItem>
+                    <asp:ListItem Value="7">7+</asp:ListItem>
+                    <asp:ListItem Value="8">8+</asp:ListItem>
+                    <asp:ListItem Value="9">9+</asp:ListItem>
+                    <asp:ListItem Value="10">10+</asp:ListItem>
+                </asp:DropDownList>
+            </div>--%>
+
+                  </div>
+                  <div class="col-md-2">
+                   <div class="baths-module small-module">
                 <label>Baths</label>
                 <asp:DropDownList ID="ddlCommBaths" runat="server">
                     <asp:ListItem Value="0" Selected="True">Any</asp:ListItem>
@@ -389,9 +437,10 @@
                     <asp:ListItem Value="9">9+</asp:ListItem>
                     <asp:ListItem Value="10">10+</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="garages-module small-module">
-                <label>Min Price</label>
+            </div></div>
+                  <div class="col-md-2">
+                  <div class="garages-module small-module">
+                <label>Price From</label>
                 <asp:DropDownList ID="ddlCommMinPrice" runat="server">
                     <asp:ListItem Value="">Min Price</asp:ListItem>
                     <asp:ListItem Value="100000">$100,000</asp:ListItem>
@@ -458,9 +507,11 @@
                     <asp:ListItem Value="4500000">$4,500,000</asp:ListItem>
                     <asp:ListItem Value="5000000">$5,000,000</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="garages-module small-module">
-                <label>Max Price</label>
+            </div>    
+                  </div>
+                  <div class="col-md-2">
+                      <div class="garages-module small-module">
+                <label>Price To</label>
                 <asp:DropDownList ID="ddlCommMaxPrice" runat="server">
                     <asp:ListItem Value="0">Max Price</asp:ListItem>
                     <asp:ListItem Value="100000">$100,000</asp:ListItem>
@@ -528,17 +579,34 @@
                     <asp:ListItem Value="5000000">$5,000,000</asp:ListItem>
                 </asp:DropDownList>
             </div>
-            <div class="garages-module small-module">
-                <label>Status</label>
+                  </div>
+                  <div class="col-md-2">
+                     <div class="beds-module small-module">
+                <label>Buy / Rent</label>
                 <asp:DropDownList ID="ddlCommSaleRent" runat="server">
                 </asp:DropDownList>
             </div>
-            <asp:Button ID="btnCommSearch" runat="server" Text="Search" OnClick="btnCommSearch_Click" class="searchButton" />
+                  </div>
+              </div>
+          </div>
+              </div>
+            <div class="col-md-2">
+                 <div class="garages-module small-module">
+                <asp:Button ID="btnCommSearch" runat="server" Text="Search" OnClick="btnCommSearch_Click" class="searchButton" />
+           
+            </div>
+            </div>
             <asp:CompareValidator runat="server" ID="CompareValidator1" CssClass="clsCompare" ControlToValidate="ddlMaxPrice"
                 ControlToCompare="ddlMinPrice" Operator="GreaterThan" Type="Integer" ErrorMessage="Price greater than minimum price  " />
         </div>
         <div id="divcondo" style="display: none;" class="dt-sc-tabs-frame-content">
-            <div class="property-type-module medium-module">
+            
+               <div class="col-md-10">
+              <div class="srch_br_right">
+              <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8">
+                    <div class="property-type-module medium-module">
                 <label>Type any City, MLSID or PostalCode</label>
                 <asp:TextBox CssClass="MainContentSearchBar" ID="txtCondoSearch" runat="server" AutoComplete="off"></asp:TextBox>
                 <ajaxToolkit:AutoCompleteExtender ID="AutoCompleteExtender3" CompletionSetCount="10"
@@ -548,13 +616,21 @@
                     MinimumPrefixLength="2" Enabled="True" runat="server">
                 </ajaxToolkit:AutoCompleteExtender>
             </div>
-            <div class="beds-module small-module">
+                  </div>
+              </div>
+          </div>
+              <div class="srch_br_right">
+              <div class="row">
+                  <div class="col-md-2">
+                      <div class="beds-module small-module">
                 <label>
                     Property Type</label>
                 <asp:DropDownList ID="ddlCondoHome" runat="server">
                 </asp:DropDownList>
             </div>
-            <div class="baths-module small-module">
+        </div>
+                  <div class="col-md-2"> 
+                    <div class="baths-module small-module">
                 <label>
                     Beds</label>
                 <asp:DropDownList ID="ddlCondoBeds" runat="server">
@@ -571,7 +647,10 @@
                     <asp:ListItem Value="10">10+</asp:ListItem>
                 </asp:DropDownList>
             </div>
-            <div class="floors-module small-module">
+
+                  </div>
+                  <div class="col-md-2">
+                   <div class="floors-module small-module">
                 <label>
                     Baths</label>
                 <asp:DropDownList ID="ddlCondoBaths" runat="server">
@@ -587,10 +666,11 @@
                     <asp:ListItem Value="9">9+</asp:ListItem>
                     <asp:ListItem Value="10">10+</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="garages-module small-module">
+            </div></div>
+                  <div class="col-md-2">
+                  <div class="garages-module small-module">
                 <label>
-                    Min Price</label>
+                    Price From</label>
                 <asp:DropDownList ID="ddlCondoMinPrice" runat="server">
                     <asp:ListItem Value="">Min Price</asp:ListItem>
                     <asp:ListItem Value="100000">$100,000</asp:ListItem>
@@ -657,10 +737,12 @@
                     <asp:ListItem Value="4500000">$4,500,000</asp:ListItem>
                     <asp:ListItem Value="5000000">$5,000,000</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div class="garages-module small-module">
+            </div>    
+                  </div>
+                  <div class="col-md-2">
+                      <div class="garages-module small-module">
                 <label>
-                    Max Price</label>
+                   Price To</label>
                 <asp:DropDownList ID="ddlCondoMaxPrice" runat="server">
                     <asp:ListItem Value="0">Max Price</asp:ListItem>
                     <asp:ListItem Value="100000">$100,000</asp:ListItem>
@@ -728,13 +810,23 @@
                     <asp:ListItem Value="5000000">$5,000,000</asp:ListItem>
                 </asp:DropDownList>
             </div>
-            <div class="garages-module small-module">
+                  </div>
+                  <div class="col-md-2">
+                   <div class="beds-module small-module">
                 <label>
-                    Status</label>
+                    Buy / Rent</label>
                 <asp:DropDownList ID="ddlCondoType" runat="server">
                 </asp:DropDownList>
             </div>
-            <asp:Button ID="btnCondoSearch" runat="server" Text="Search" OnClick="btnCondoSearch_Click" class="searchButton" />
+                  </div>
+              </div>
+          </div>
+              </div>
+            <div class="col-md-2">
+                 <div class="garages-module small-module">
+           <asp:Button ID="btnCondoSearch" runat="server" Text="Search" OnClick="btnCondoSearch_Click" class="searchButton" />
+            </div>
+            </div>
             <asp:CompareValidator runat="server" ID="CompareValidator2" CssClass="clsCompare" ControlToValidate="ddlMaxPrice"
                 ControlToCompare="ddlMinPrice" Operator="GreaterThan" Type="Integer" ErrorMessage="Price greater than minimum price  " />
         </div>

@@ -17,14 +17,14 @@
                         <div style="display: block;" class="dt-sc-tabs-frame-content">
                             <div class="Free-Home_new">
                                 <ul>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=43">UseFul Search Tools</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=44">Real Estate And Housing</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=45">Utilities</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=46">School Board,Universities ,Colleges</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=47">Bamks And Financial Institutions</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=48">Transportation</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=49">Hospitals And Health Centres</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca//StaticPages.aspx?PageID=50">Goverment</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=43">UseFul Search Tools</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=44">Real Estate And Housing</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=45">Utilities</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=46">School Board,Universities ,Colleges</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=47">Bamks And Financial Institutions</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=48">Transportation</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=49">Hospitals And Health Centres</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com//StaticPages.aspx?PageID=50">Goverment</a></li>
                                 </ul>
                             </div>
                         </div>

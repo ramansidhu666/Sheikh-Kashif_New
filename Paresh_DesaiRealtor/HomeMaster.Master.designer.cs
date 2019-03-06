@@ -67,6 +67,15 @@ namespace Property {
         protected global::System.Web.UI.WebControls.Label lblBrkrOneName;
         
         /// <summary>
+        /// lblemailid control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblemailid;
+        
+        /// <summary>
         /// dynamicmenus control.
         /// </summary>
         /// <remarks>
@@ -119,6 +128,15 @@ namespace Property {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rptImages;
+        
+        /// <summary>
+        /// lblemail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblemail;
         
         /// <summary>
         /// logo control.

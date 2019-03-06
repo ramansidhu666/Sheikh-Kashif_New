@@ -47,7 +47,7 @@
                                         Generally, in the agreement:
                                     </p>
                                     <ul>
-                                        <li>You appoint the brokerage company as your agent and give its representatives the
+                                        <li>You appoint the brokerage company as your agent and give its Representative the
                     authority to find a purchaser </li>
                                         <li>The duration of the agreement is indicated </li>
                                         <li>The compensation is set out (Generally, you pay this only upon closing or when the
@@ -127,7 +127,7 @@
                                         There are two types:
                                     </p>
                                     <ul>
-                                        <li>An agent’s open house, where Sales Representativess from the listing company will
+                                        <li>An agent’s open house, where Sales Representatives from the listing company will
                     be invited to view your house. If you have signed an MLS® agreement, other REALTORS
                     may also be invited. Remember, each of these REALTORS may have a prospective buyer.</li>
                                         <li>A public open house, where members of the public are invited to walk through your

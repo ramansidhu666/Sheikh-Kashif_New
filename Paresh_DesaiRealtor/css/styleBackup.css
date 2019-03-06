@@ -1007,12 +1007,12 @@ img {
     float: left;
     margin: 0;
     padding: 0;
-    width: 22%
+    width: 100%
 }
 
 .property-search-container .small-module {
-    margin: 0 12px 0 1px!important;
-    width: 8%!important
+    margin: 0 2px !important;
+    width: 100%;
 }
 
 .property-search-container .medium-module {
@@ -1037,14 +1037,12 @@ img {
 .beds-module.small-module {
     float: left;
     width: 100%;
-    margin-top: 1px;
-    margin-left: 1%!important
 }
 
 .floors-module.small-module {
     float: left;
     margin: 0 0 0 10px;
-    width: auto
+    width: 100%;
 }
 
 .baths-module.small-module,
@@ -2327,11 +2325,10 @@ label {
     width: 100%;
     float: left
 }
-
 .medium-module input {
-    padding: 4px
+    padding: 11px !important;
+    border: 1px solid #90909099;
 }
-
 .count_label {
     color: #192b4e;
     font-size: 15px;
@@ -2475,4 +2472,20 @@ label {
 .agent_input select {
     margin: 10px 0!important;
     padding: 7px!important
+}
+.new_black_drop select {
+    background: black !important;
+    float: left;
+    color: white;
+    padding: 12px !important;
+}
+.new_black_drop select option
+{
+color:#000000;
+}
+.srch_br_right {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #2222;
+    padding: 12px 0;
 }

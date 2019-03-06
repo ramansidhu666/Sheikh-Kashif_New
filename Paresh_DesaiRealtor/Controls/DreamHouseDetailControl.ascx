@@ -286,9 +286,9 @@
                         </div>
                         <div class="roco_pro_info">
                             <h2 style="font-size:19px !important">
-                                <asp:Label ID="lblname"  runat="server"></asp:Label>Kashif & Ehtesham</h2>
-                            <p>Sales Representatives</p>
-                            <span class="email_profile_r">647-859-7222 , 416-454-5352</span>
+                                <asp:Label ID="lblname"  runat="server"></asp:Label>Pankaj Butan</h2>
+                            <p>Sales Representative</p>
+                            <span class="email_profile_r">416-890-9887</span>
                             <%--<asp:Label CssClass="email_profile_r" ID="lblmobile" runat="server"></asp:Label>--%>
                             <asp:Label CssClass="email_profile_r" ID="lblemail" runat="server"></asp:Label>
                         </div>

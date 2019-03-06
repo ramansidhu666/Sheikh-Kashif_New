@@ -222,9 +222,9 @@
 <div class="col-md-7 col-sm-7">
 <div class="top_section">
 <ul>
-<li>Direct: (647) 832-2369</li>
+<li>Direct: 416-890-9887</li>
 <li>Office: (416) 747-9777</li>
-<li>Email:  hotlineproperties@gmail.com</li>
+<li>Email:  pankajbutan@gmail.com</li>
 
 </ul>
  </div>
@@ -244,7 +244,7 @@
   <div class="col-md-5 col-sm-5">
   <div class="property_logo">
   <img src="images/property-logo.png" alt="" title=""/>
-  <h4>Homelife/Miracle Realty Ltd, Brokerage
+  <h4>HomeLife Woodbine Realty Inc., Brokerage
 Independently Owned and Operated</h4>
    </div>
   
@@ -601,10 +601,10 @@ Independently Owned and Operated</h4>
    
    <div class="col-md-4 col-sm-4">
   <div class="footer_menu">
-<p>HomeLife/Miracle Realty Ltd., Brokerage<br/>
+<p>HomeLife Woodbine Realty Inc., Brokerage<br/>
 Ontario, Canada<br/>
-Email: hotlineproperties@gmail.com  </p>
-<h5>Cell: (647) 832-2369</h5>
+Email: pankajbutan@gmail.com  </p>
+<h5>Cell: 416-890-9887</h5>
    </div>
   
    </div>

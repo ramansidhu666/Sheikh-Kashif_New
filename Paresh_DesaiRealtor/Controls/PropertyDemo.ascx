@@ -66,7 +66,7 @@
             var qs = getQueryStrings();
             var MLSID = qs["MLSID"];
             var PropertyType = qs["PropertyType"];
-            var URL = 'http://hotlineproperties.ca/PropertyDetails.aspx?MLSID=' + MLSID + '&PropertyType=' + PropertyType;
+            var URL = 'http://propertylistings4u.com/PropertyDetails.aspx?MLSID=' + MLSID + '&PropertyType=' + PropertyType;
             //alert(window.location.href);
             //var URL = window.location.href;
             FB.ui({
@@ -589,11 +589,11 @@
                         </div>
                         <div class="roco_pro_info">
                             <h2>
-                                Kashif & Ehtesham
+                                Pankaj Butan
                                <%-- <asp:Label ID="lblname" runat="server"></asp:Label>--%></h2>
-                            <p>Sales Representatives</p>
+                            <p>Sales Representative</p>
                             <asp:Label CssClass="email_profile_r" ID="lblemail" runat="server"></asp:Label>
-                            <span class="email_profile_r">647-859-7222 , 416-454-5352</span>
+                            <span class="email_profile_r">416-890-9887</span>
                             <%--<asp:Label CssClass="email_profile_r" ID="lblmobile" runat="server"></asp:Label>--%>
                         </div>
                     </div>

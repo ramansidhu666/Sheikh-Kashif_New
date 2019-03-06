@@ -171,7 +171,7 @@ namespace Property.Controls
 
             mail.To.Add(ToEmailID);
             mail.From = new MailAddress(FromEmailID);
-            mail.Subject = "Kashif & Ehtesham";
+            mail.Subject = "Pankaj Butan";
             string body = "";
             body = "<p>Thanks for contacting us.</p>";
             mail.Body = body;

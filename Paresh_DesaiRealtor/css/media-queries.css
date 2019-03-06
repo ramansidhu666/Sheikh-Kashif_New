@@ -92,7 +92,6 @@
         font-size: 16px;
         margin: 9px 0 0 30px;
         width: auto!important;
-        display: none
     }
     .hide_cal_new {
         display: none
@@ -180,7 +179,6 @@
         float: left;
         text-align: center;
         width: 100%;
-        display: none
     }
     .proprty_price {
         border-right: medium none;
@@ -600,7 +598,8 @@
         color: #7c952d;
         float: left;
         font-size: 17px!important;
-        margin: 5px 0
+        margin: 5px 0;
+		width:100%;
     }
     .logo_section img {
         margin: 25px 0 0 31px;
@@ -775,6 +774,11 @@
         font-size: 20px!important;
         margin: 18px 0
     }
+	.fuuter_name2 {
+    float: left;
+    margin: 24px 0 0 !important;
+    width: 100%;
+}
     .featurd_heading h2 {
         color: #ddac59;
         float: left;
@@ -786,6 +790,28 @@
         text-decoration: underline;
         font-weight: 700
     }
+	.buyer_text {
+    float: left;
+    width: 100%;
+    margin: 0px 0 !important;
+}
+	.buyer_text p {
+    float: left;
+    width: 100%;
+    font-size: 20px !important;
+    font-family: 'Now';
+    color: #101010;
+    text-transform: capitalize;
+    margin: 12px 0;
+}
+.buyer_cntnt span {
+    float: left;
+    width: 100%;
+    font-size: 18px !important;
+    font-family: Lato;
+    color: white;
+    margin: 26px 0 0;
+}
     .header_detail1 h2 {
         color: #dfcf84;
         float: left!important;
@@ -834,13 +860,15 @@
         text-align: justify;
         width: 100%!important
     }
-    .property-search-container input[type=submit] {
-        clear: both;
-        color: #fff!important;
-        float: right;
-        margin-right: 4px;
-        width: auto
-    }
+  .property-search-container input[type="submit"] {
+    clear: both;
+    color: #fff !important;
+    float: right;
+    margin-right: 4px;
+    width: auto;
+    margin-top: 0px !important;
+    height: auto !important;
+}
     .totalrecorslabe {
         color: red;
         float: left;
@@ -1424,7 +1452,7 @@
         font-family: CenturyGothic-Regular;
         line-height: 27px;
         padding: 0 6px;
-        text-align: center
+        text-align: center !important;
     }
     .header_detail h2,
     .header_detail h5,
@@ -2056,6 +2084,26 @@
         margin: 5px 6px!important;
         text-align: center
     }
+	.buyer_text h2 {
+    float: left;
+    width: 100%;
+    font-size: 28px !important;
+    font-family: Lato;
+    color: #101010;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 12px 0;
+}
+.buyer_text p {
+    float: left;
+    width: 100%;
+    font-size: 16px !important;
+    font-family: 'Now';
+    color: #101010;
+    text-transform: capitalize;
+    margin: 12px 0;
+    line-height: 25px;
+}
 }
 
 @media screen and (max-width:320px) {

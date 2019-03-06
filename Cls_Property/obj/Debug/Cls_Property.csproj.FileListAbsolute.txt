@@ -34,3 +34,8 @@ C:\sites\Sheikh Kashif_New\Cls_Property\bin\Debug\Cls_Property.pdb
 C:\sites\Sheikh Kashif_New\Cls_Property\obj\Debug\Cls_Property.csprojResolveAssemblyReference.cache
 C:\sites\Sheikh Kashif_New\Cls_Property\obj\Debug\Cls_Property.dll
 C:\sites\Sheikh Kashif_New\Cls_Property\obj\Debug\Cls_Property.pdb
+C:\Users\Raman\Downloads\Pankaj Butan_New\Cls_Property\bin\Debug\Cls_Property.dll
+C:\Users\Raman\Downloads\Pankaj Butan_New\Cls_Property\bin\Debug\Cls_Property.pdb
+C:\Users\Raman\Downloads\Pankaj Butan_New\Cls_Property\obj\Debug\Cls_Property.csprojResolveAssemblyReference.cache
+C:\Users\Raman\Downloads\Pankaj Butan_New\Cls_Property\obj\Debug\Cls_Property.dll
+C:\Users\Raman\Downloads\Pankaj Butan_New\Cls_Property\obj\Debug\Cls_Property.pdb

@@ -140,7 +140,7 @@
             <div class="col-md-3 col-sm-3">
                 <div class="header_detail">
                     <h2><asp:Label ID="lblBrkrTwoNme" runat="server" ></asp:Label></h2>
-                    <span>Sales Representatives</span>
+                    <span>Sales Representative</span>
                     <span><asp:Label ID="lblbrkrTwoPhn" runat="server" ></asp:Label></span>
                 <%--   <a style="color:white" href="admin/adminlogin.aspx">login</a>--%>
                 </div>
@@ -182,7 +182,7 @@
       <div class="fuuter_adress">
       <div class="fuuter_name">
       <h2>Rajiv Datta and Sandy Gill</h2>
-      <span>Sales Representatives/Broker</span>
+      <span>Sales Representative/Broker</span>
       </div>
       <div class="fuuter_adress">
       <h3>Homelife Lifetime Realty Inc., Brokerage</h3>

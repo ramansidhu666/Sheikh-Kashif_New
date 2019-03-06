@@ -338,7 +338,7 @@
                             <div class="bob_clsses" runat="server" id="Div2">
                                 <img class="image1" src="../images/Rocco.png" />
                                 <h5>Rocco Nanni</h5>
-                                <span><i class="fa fa-phone" style="margin: 0 6px 0 0;"></i>647-859-7222 , 416-454-5352</span>
+                                <span><i class="fa fa-phone" style="margin: 0 6px 0 0;"></i>416-890-9887</span>
                             </div>
 
                         </div>--%>

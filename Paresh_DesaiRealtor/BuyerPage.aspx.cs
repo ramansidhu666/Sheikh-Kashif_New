@@ -101,7 +101,7 @@ namespace Property
                
             mail.Attachments.Add(new Attachment(filePath));
             mail.From = new MailAddress(FromEmailID);
-            mail.Subject = "Suchi Gupta";
+            mail.Subject = "Pankaj Butan";
             string body = "";
             body = String.Format(@"<img src=""cid:{0}"" />", "~/images/thanks.png");
             mail.Body = body;

@@ -1504,19 +1504,19 @@ function previewfunction(content) {
 
                                 <asp:TextBox ID="FirstContent" onkeyDown="checkTextAreaMaxLength(this,event,'30');" Style="float: left; width: 100%; font-size: 26px; padding: 5px 0 0; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #55518a; margin-top: 6px; height: 31px;" runat="server" TextMode="MultiLine" PlaceHolder="Description here..." class="span8">Tittle of the Newsletter Section </asp:TextBox>
                                 <div style="float: left; width: 100%; margin: 12px 0 0;">
-                                    <h2 style="float: left; width: 100%; font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: #FFF; margin: 0px;">Kashif & Ehtesham</h2>
-                                    <p style="float: left; width: 100%; font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: #c48820; margin: 5px 0 2px 0;">HomeLife/Miracle Realty Ltd., Brokerage*</p>
+                                    <h2 style="float: left; width: 100%; font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: #FFF; margin: 0px;">Pankaj Butan</h2>
+                                    <p style="float: left; width: 100%; font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: #c48820; margin: 5px 0 2px 0;">HomeLife Woodbine Realty Inc., Brokerage*</p>
                                     <p style="float: left; width: 100%; margin: 0">
                                         <span style="float: left; font-size: 15px; color: #c48820;">Phone:</span>
-                                        <span style="float: left; font-size: 14px; color: #FFF; margin: 0 10px 0 4px;">647-859-7222 , 416-454-5352</span>
+                                        <span style="float: left; font-size: 14px; color: #FFF; margin: 0 10px 0 4px;">416-890-9887</span>
                                         <span style="float: left; font-size: 15px; color: #c48820; margin: 0 6px 0 1px">Email:</span>
-                                        <span style="float: left; font-size: 14px; color: #FFF;">hotlineproperties@gmail.com</span>
+                                        <span style="float: left; font-size: 14px; color: #FFF;">pankajbutan@gmail.com</span>
                                     </p>
                                     <p style="float: left; width: 100%; margin: 0">
                                         <span style="float: left; font-size: 15px; color: #c48820;">Address:</span>
                                         <span style="float: left; font-size: 14px; color: #FFF; margin: 0 10px 0 4px;">5010 Steeles Avenue West , Suite 11A , Toronto, Ontario, M9V 5C6</span>
                                     </p>
-                                    <p style="float: left; width: 100%; font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #c48820; margin: 5px 0 0;">www.hotlineproperties.ca</p>
+                                    <p style="float: left; width: 100%; font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #c48820; margin: 5px 0 0;">www.propertylistings4u.com</p>
                                 </div>
                             </div>
                         </div>

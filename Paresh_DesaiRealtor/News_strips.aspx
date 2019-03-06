@@ -29,7 +29,7 @@ Sellers Tips</h1></div>
         3. The selling/buying process begins AFTER the buyer leaves your home. Most sellers
         think that all it takes is for someone to see their home, fall in love with the
         great decor... and the offer automatically will follow. Remember that the buying
-        process begins after they leave your home. If a real estate Sales Representatives
+        process begins after they leave your home. If a real estate Sales Representative
         does not represent the buyer, and they are looking on their own…they usually leave
         the home and start to talk themselves out of the buying process. Real estate professionals
         are trained on how to overcome buyers remorse--a very common occurrence.
@@ -62,7 +62,7 @@ Sellers Tips</h1></div>
     </div>
     <div class="top_text">
         10. Expected savings in broker's fees will also be greatly reduced if you offer
-        a selling commission to entice real estate Sales Representativess to bring potential
+        a selling commission to entice real estate Sales Representatives to bring potential
         buyers.
     </div>
     <div class="top_text">
@@ -70,9 +70,9 @@ Sellers Tips</h1></div>
         lawyer's fees will be considerably higher.
     </div>
     <div class="top_text">
-        12. Only real estate Sales Representativess have access to the up-to-date market
+        12. Only real estate Sales Representatives have access to the up-to-date market
         information. News reports cannot approach the timeliness or specificity available
-        to real estate sales people. Further, real estate Sales Representativess are involved
+        to real estate sales people. Further, real estate Sales Representatives are involved
         in home sales much more frequently than the average homeowner is. This familiarity
         leads to a degree of expertise that provides an edge on negotiating and successful
         selling.

@@ -108,7 +108,7 @@ namespace Property
 
             mail.To.Add(ToEmailID);
             mail.From = new MailAddress(FromEmailID);
-            mail.Subject = "Kashif & Ehtesham Property";
+            mail.Subject = "Pankaj Butan Property";
             string body = "";
             body = "<p>Person Name : " + txtName.Text + "</p>";
             body = body + "<p>Email ID : " + UserEmailId + "</p>";
@@ -141,7 +141,7 @@ namespace Property
 
             mail.To.Add(ToEmailID);
             mail.From = new MailAddress(FromEmailID);
-            mail.Subject = "Kashif & Ehtesham Property";
+            mail.Subject = "Pankaj Butan Property";
             string body = "";
             body = "<p>Thanks for contacting us.</p>";
             mail.Body = body;

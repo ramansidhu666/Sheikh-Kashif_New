@@ -145,7 +145,7 @@ namespace Property
 
             mail.To.Add(ToEmailID);
             mail.From = new MailAddress(FromEmailID);
-            mail.Subject = "Kashif & Ehtesham";
+            mail.Subject = "Pankaj Butan";
             string body = "";
             body = String.Format(@"<img src=""cid:{0}"" />", "~/images/thanks.png");
             mail.Body = body;

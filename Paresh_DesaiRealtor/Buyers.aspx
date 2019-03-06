@@ -18,24 +18,24 @@
                         <div style="display: block;" class="dt-sc-tabs-frame-content back_bggg">
                             <div class="Free-Home_new">
                                 <ul>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=25">Buying a House</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=26">Choosing a Mortgage Term</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=27">Glossary of terms</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=28">Helpful Moving Tips</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=29">Mortgage applicaiton tips</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=30">Mortgage application steps</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=31">Mortgage Glossary</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=32">Renting VS Buying, Which is better</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=33">Save your money everyday</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=34">Selecting and working with a Realtor</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=35">The cost of home buyer</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=36">The elements of an offer</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=37">Tips for choosing a realtor</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=38">Types of Mortgages</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=39">Understanding market conditions</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=40">What is a mortgage</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=41">Why do I need home inspection</a></li>
-                                    <li><a target="_blank" href="http://www.hotlineproperties.ca/StaticPages.aspx?PageID=42">Why do you want to move</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=25">Buying a House</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=26">Choosing a Mortgage Term</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=27">Glossary of terms</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=28">Helpful Moving Tips</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=29">Mortgage applicaiton tips</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=30">Mortgage application steps</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=31">Mortgage Glossary</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=32">Renting VS Buying, Which is better</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=33">Save your money everyday</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=34">Selecting and working with a Realtor</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=35">The cost of home buyer</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=36">The elements of an offer</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=37">Tips for choosing a realtor</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=38">Types of Mortgages</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=39">Understanding market conditions</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=40">What is a mortgage</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=41">Why do I need home inspection</a></li>
+                                    <li><a target="_blank" href="http://www.propertylistings4u.com/StaticPages.aspx?PageID=42">Why do you want to move</a></li>
                                 </ul>
                             </div>
                         </div>

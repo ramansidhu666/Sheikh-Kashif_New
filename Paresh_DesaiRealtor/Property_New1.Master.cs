@@ -62,7 +62,7 @@ namespace Property
             {
                 fbProprtyImage.Content = dt.Rows[0]["pImage"].ToString();
                 fbProprtyTitle.Content = string.Format("{0}, {1}, {2}, {3}", dt.Rows[0]["Address"].ToString(), dt.Rows[0]["Municipality"].ToString(), dt.Rows[0]["PostalCode"].ToString(), dt.Rows[0]["province"].ToString());
-                fbProprtyUrl.Content = string.Format("http://hotlineproperties.ca//PropertyDetails.aspx?MLSID={0}&PropertyType={1}", dt.Rows[0]["MLS"].ToString(), dt.Rows[0]["pType"].ToString());
+                fbProprtyUrl.Content = string.Format("http://propertylistings4u.com//PropertyDetails.aspx?MLSID={0}&PropertyType={1}", dt.Rows[0]["MLS"].ToString(), dt.Rows[0]["pType"].ToString());
                 fbProprtyDescription.Content = dt.Rows[0]["remarksforclients"].ToString();
                 fbProprtyShareType.Content = "Property";
             }
@@ -122,14 +122,24 @@ namespace Property
                 //    }
                 //    StrMenu.Append("</ul>");
                 //}
-                StrMenu.Append("<li style='background:none;'><a href='Featured_Properties.aspx' title='Home Evaluation'>Featured Listings</a></li>");
-                StrMenu.Append("<li class='test' style='background:none;'><a href='Home_evaluation.aspx' title='Home Evaluation'>Free Home Evaluation</a></li>");
-                StrMenu.Append("<li>");
-                StrMenu.Append("<a href='DreamHome.aspx' title='Find your Dream Home'>Find your Dream Home</a>");
+                StrMenu.Append("<li><a href=#>Pre Constructions</a>");//</li>
+                DataTable condos_dt = new DataTable();
+                condos_dt = clsobj.GetDreamHouse();
+                if (condos_dt.Rows.Count > 0)
+                {
+                    StrMenu.Append("<ul >");
+
+                    for (int j = 0; j < condos_dt.Rows.Count; j++)
+                    {
+                        StrMenu.Append("<li><a href='../DreamHouseDetail.aspx?Id=" + condos_dt.Rows[j]["Id"] + "' title=''>" + condos_dt.Rows[j]["Title"] + "</a></li>");
+                    }
+                    StrMenu.Append("</ul>");
+                }
+
                 StrMenu.Append("</li>");
-                StrMenu.Append("<li class='test' style='background:none;'><a href='Calculators.aspx' title='Calculators'>Calculators</a></li>");
+                StrMenu.Append("<li class='test' style='background:none;'><a href='RealEstateNews.aspx' title='Real Estate News'>Real Estate News</a></li>");
                 StrMenu.Append("<li class='test' style='background:none;'><a href='ContactUs.aspx' title='Contact Us'>Contact Us</a></li>");
-                
+                StrMenu.Append("<li class='test' style='background:none;'><a href='signin.aspx' title='User Login'>Login</a></li>");
                 StrMenu.Append("</ul>");
 
 
@@ -148,7 +158,9 @@ namespace Property
                 DataTable dt1 = clsobj.GetUserInfo();
                 if (dt.Rows.Count > 0)
                 {
-                  
+
+                    lblemailid.Text = Convert.ToString(dt.Rows[0]["Email"]);
+                    lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
                     siteTitle.Text = Convert.ToString(dt.Rows[0]["Title"]);
                     lblBrkrOneName.Text = Convert.ToString(dt1.Rows[0]["FirstName"]) + " " + Convert.ToString(dt1.Rows[0]["LastName"]);
                    
