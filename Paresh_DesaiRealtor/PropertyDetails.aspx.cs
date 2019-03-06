@@ -23,14 +23,14 @@ namespace Property
 
             if (!IsPostBack)
             {
-                int userCount = Convert.ToInt32(HttpContext.Current.Session["MySession"]);
+                //int userCount = Convert.ToInt32(HttpContext.Current.Session["MySession"]);
 
-                if (userCount > 1 && Request.Cookies["UserEmail"] == null)
-                {
-                    //btnModal_Clicked(sender, e);
-                    ScriptManager.RegisterStartupScript(this, this.GetType(), "Pop", "openModal();", true);
-                }
-                HttpContext.Current.Session["MySession"] = userCount + 1;
+                //if (userCount > 1 && Request.Cookies["UserEmail"] == null)
+                //{
+                //    //btnModal_Clicked(sender, e);
+                //    ScriptManager.RegisterStartupScript(this, this.GetType(), "Pop", "openModal();", true);
+                //}
+                //HttpContext.Current.Session["MySession"] = userCount + 1;
             }
             Session["Municipality"] = null;
             if (Page.IsPostBack == false)

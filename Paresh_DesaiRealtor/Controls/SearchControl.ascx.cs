@@ -303,8 +303,8 @@ namespace Property.Controls
                             FavouriteSpan.InnerText = "Favourite Property";
                     }
 
-                    if (hdnVOX.Value == "True")
-                    {
+                    //if (hdnVOX.Value == "True")
+                    //{
                         if (Session["LoginUser"] == null)
                         {
                             Session["MLSID"] = hdnMLSID.Value;
@@ -319,13 +319,13 @@ namespace Property.Controls
                             hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
                             hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
                         }
-                    }
-                    else
-                    {
-                        hypBoxreadmore.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                        hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                        hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                    }
+                    //}
+                    //else
+                    //{
+                    //    hypBoxreadmore.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //    hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //    hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //}
                 }
             }
             catch (Exception ex)
@@ -526,8 +526,8 @@ namespace Property.Controls
                             FavouriteSpan.InnerText = "Favourite Property";
                     }
 
-                    if (hdnVOX.Value == "True")
-                    {
+                    //if (hdnVOX.Value == "True")
+                    //{
                         if (Session["LoginUser"] == null)
                         {
                             Session["MLSID"] = hdnMLSID.Value;
@@ -542,13 +542,13 @@ namespace Property.Controls
                             hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
                             hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
                         }
-                    }
-                    else
-                    {
-                        hypBoxreadmore.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                        hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                        hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                    }
+                    //}
+                    //else
+                    //{
+                    //    hypBoxreadmore.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //    hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //    hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //}
 
                 }
             }
@@ -751,8 +751,8 @@ namespace Property.Controls
                             FavouriteSpan.InnerText = "Favourite Property";
                     }
 
-                    if (hdnVOX.Value == "True")
-                    {
+                    //if (hdnVOX.Value == "True")
+                    //{
                         if (Session["LoginUser"] == null)
                         {
                             Session["MLSID"] = hdnMLSID.Value;
@@ -767,13 +767,13 @@ namespace Property.Controls
                             hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
                             hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
                         }
-                    }
-                    else
-                    {
-                        hypBoxreadmore.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                        hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                        hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
-                    }
+                    //}
+                    //else
+                    //{
+                    //    hypBoxreadmore.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //    hypImage.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //    hypAddress.NavigateUrl = "~/PropertyDetails.aspx?MLSID=" + hdnMLSID.Value + "&PropertyType=" + hdnType.Value;
+                    //}
                 }
             }
             catch (Exception ex)
